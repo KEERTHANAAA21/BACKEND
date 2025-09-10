@@ -4,11 +4,12 @@ const UserSchema = new mongoose.Schema({
   email: { 
     type: String, 
     required: true, 
-    match: [/^\S+@\S+\.\S+$/, "Please enter a valid email"] 
+    unique: true,   // 
+    match: [/^\S+@\S+\.\S+$/, "Please enter a valid email"]
   },
   password: { 
     type: String, 
-    required: true, 
+    required: true
   }
 });
 
