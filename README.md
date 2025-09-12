@@ -1,0 +1,1 @@
+You forgot to log out of your Gmail account. Please make sure to log out after using it, as staying signed in on a shared or public device can put your personal information at risk. Logging out will help keep your account safe and secure.
